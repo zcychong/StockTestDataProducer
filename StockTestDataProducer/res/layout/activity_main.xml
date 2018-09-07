@@ -1,0 +1,159 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:focusable="true"
+            android:focusableInTouchMode="true">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                android:padding="10dp"
+                android:background="@color/color_gray_C7C7C7">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:text="基本信息" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginLeft="10dp"
+                style="@style/ll_w_w_horizontal">
+                <TextView
+                    style="@style/tv_w_w_b_33"
+                    android:text="股票代码: "
+                    />
+                <EditText
+                    android:id="@+id/et_code_num"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:text="SH000001"/>
+                <TextView
+                    style="@style/tv_w_w_b_33"
+                    android:layout_marginLeft="10dp"
+                    android:text="上证指数: "
+                    />
+                <EditText
+                    android:id="@+id/et_sse"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:text="2888.88"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginLeft="10dp"
+                style="@style/ll_w_w_horizontal">
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginLeft="10dp"
+                style="@style/ll_w_w_horizontal">
+                <TextView
+                    style="@style/tv_w_w_b_33"
+                    android:text="成交额(个): "
+                    />
+                <EditText
+                    android:id="@+id/et_price_volume"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:minWidth="50dp"
+                    android:text="100000000"/>
+
+                <TextView
+                    style="@style/tv_w_w_b_33"
+                    android:layout_width="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="成交量(元): " />
+                <EditText
+                    android:id="@+id/et_volume"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:minWidth="50dp"
+                    android:text="10000000"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginLeft="10dp"
+                style="@style/ll_w_w_horizontal">
+                <TextView
+                    style="@style/tv_w_w_b_33"
+                    android:text="数据时间间隔(s): "
+                    />
+                <EditText
+                    android:id="@+id/et_time_interval"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:minWidth="50dp"
+                    android:text="20"/>
+                <TextView
+                    style="@style/tv_w_w_b_33"
+                    android:layout_marginLeft="10dp"
+                    android:text="正常数据权重(%): "
+                    />
+                <EditText
+                    android:id="@+id/et_weight"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:minWidth="50dp"
+                    android:text="80"/>
+            </LinearLayout>
+            <LinearLayout
+                style="@style/ll_w_w_horizontal"
+                android:layout_marginLeft="10dp"
+                android:visibility="visible">
+                <TextView
+                    style="@style/tv_w_w_b_33"
+                    android:text="数据产生时间: "/>
+                <EditText
+                    android:id="@+id/et_leate_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:minWidth="50dp"
+                    android:text="20"/>
+            </LinearLayout>
+            <LinearLayout
+                style="@style/ll_w_w_horizontal"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                >
+                <Button
+                    android:id="@+id/btn_begin"
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+
+                    android:text="开始"/>
+                <Button
+                    android:id="@+id/btn_end"
+                    android:layout_marginLeft="20dp"
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:text="结束"
+                    android:visibility="invisible"/>
+            </LinearLayout>
+
+
+            <include layout="@layout/sse_layout"/>
+            <include layout="@layout/price_volume"/>
+            <include layout="@layout/volume"/>
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

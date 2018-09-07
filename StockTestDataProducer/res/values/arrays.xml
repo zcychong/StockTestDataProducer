@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="sse_err_array">
+        <item>异常数据-大</item>
+        <item>异常数据-小</item>
+        <item>异常数据-0</item>
+        <item>异常数据-小数点后4位</item>
+        <item>异常-一段时间持续无数据</item>
+        <item>异常-一段时间连续错误数据</item>
+        <item>异常-成交量数据</item>
+        <item>异常-成交额数据</item>
+    </array>
+    <array name="pv_err_array">
+        <item>异常数据-大</item>
+        <item>异常数据-小</item>
+        <item>异常-大值->0->递增</item>
+        <item>异异常-一段时间无数据</item>
+        <item>异常-递增->小值->递增</item>
+        <item>异常-递增->大值->递增</item>
+    </array>
+    <array name="volume_err_array">
+        <item>异常数据-大</item>
+        <item>异常数据-小</item>
+        <item>异常-大值->0->递增</item>
+        <item>异异常-一段时间无数据</item>
+        <item>异常-递增->小值->递增</item>
+        <item>异常-递增->大值->递增</item>
+    </array>
+</resources>

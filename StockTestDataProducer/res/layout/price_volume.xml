@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="2dp">
+    <RelativeLayout
+        android:id="@+id/rl_pv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:background="@color/color_gray_C7C7C7">
+
+        <TextView
+            android:id="@+id/tv_pv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:textSize="16sp"
+            android:text="成交额"/>
+        <TextView
+            android:id="@+id/tv_pv_count"
+            style="@style/tv_w_w_b_33"
+            android:layout_toRightOf="@+id/tv_pv_title"
+            android:layout_centerVertical="true"
+            android:text="(0)"/>
+        <ImageView
+            android:id="@+id/iv_prive_volume_fold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/icon_up_fold"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_pv_items"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.example.stocktestdataproducer.ListViewForScrollView
+            android:id="@+id/lv_pv_items"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+        </com.example.stocktestdataproducer.ListViewForScrollView>
+    </LinearLayout>
+
+</LinearLayout>
