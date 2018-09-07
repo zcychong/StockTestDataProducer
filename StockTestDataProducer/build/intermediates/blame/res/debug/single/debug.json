@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "/home/zcy/programe/ASworkspace/ASTestData/StockTestDataProducer/build/intermediates/res/merged/debug/drawable-xxhdpi_icon_down_fold.png.flat",
+        "source": "/home/zcy/programe/ASworkspace/ASTestData/StockTestDataProducer/res/drawable-xxhdpi/icon_down_fold.png"
+    },
+    {
+        "merged": "/home/zcy/programe/ASworkspace/ASTestData/StockTestDataProducer/build/intermediates/res/merged/debug/layout_item_data.xml.flat",
+        "source": "/home/zcy/programe/ASworkspace/ASTestData/StockTestDataProducer/res/layout/item_data.xml"
+    },
+    {
+        "merged": "/home/zcy/programe/ASworkspace/ASTestData/StockTestDataProducer/build/intermediates/res/merged/debug/drawable-xxhdpi_icon_up_fold.png.flat",
+        "source": "/home/zcy/programe/ASworkspace/ASTestData/StockTestDataProducer/res/drawable-xxhdpi/icon_up_fold.png"
+    },
+    {
+        "merged": "/home/zcy/programe/ASworkspace/ASTestData/StockTestDataProducer/build/intermediates/res/merged/debug/drawable-mdpi_ic_launcher.png.flat",
+        "source": "/home/zcy/programe/ASworkspace/ASTestData/StockTestDataProducer/res/drawable-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/zcy/programe/ASworkspace/ASTestData/StockTestDataProducer/build/intermediates/res/merged/debug/drawable-xhdpi_ic_launcher.png.flat",
+        "source": "/home/zcy/programe/ASworkspace/ASTestData/StockTestDataProducer/res/drawable-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/zcy/programe/ASworkspace/ASTestData/StockTestDataProducer/build/intermediates/res/merged/debug/layout_price_volume.xml.flat",
+        "source": "/home/zcy/programe/ASworkspace/ASTestData/StockTestDataProducer/res/layout/price_volume.xml"
+    },
+    {
+        "merged": "/home/zcy/programe/ASworkspace/ASTestData/StockTestDataProducer/build/intermediates/res/merged/debug/drawable-hdpi_ic_launcher.png.flat",
+        "source": "/home/zcy/programe/ASworkspace/ASTestData/StockTestDataProducer/res/drawable-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/zcy/programe/ASworkspace/ASTestData/StockTestDataProducer/build/intermediates/res/merged/debug/layout_volume.xml.flat",
+        "source": "/home/zcy/programe/ASworkspace/ASTestData/StockTestDataProducer/res/layout/volume.xml"
+    },
+    {
+        "merged": "/home/zcy/programe/ASworkspace/ASTestData/StockTestDataProducer/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_launcher.png.flat",
+        "source": "/home/zcy/programe/ASworkspace/ASTestData/StockTestDataProducer/res/drawable-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/zcy/programe/ASworkspace/ASTestData/StockTestDataProducer/build/intermediates/res/merged/debug/layout_activity_main.xml.flat",
+        "source": "/home/zcy/programe/ASworkspace/ASTestData/StockTestDataProducer/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/zcy/programe/ASworkspace/ASTestData/StockTestDataProducer/build/intermediates/res/merged/debug/layout_sse_layout.xml.flat",
+        "source": "/home/zcy/programe/ASworkspace/ASTestData/StockTestDataProducer/res/layout/sse_layout.xml"
+    }
+]

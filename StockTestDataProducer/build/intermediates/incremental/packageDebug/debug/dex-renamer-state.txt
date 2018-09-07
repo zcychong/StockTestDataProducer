@@ -1,0 +1,4 @@
+#Thu Sep 06 17:51:49 CST 2018
+base.0=/home/zcy/programe/ASworkspace/ASTestData/StockTestDataProducer/build/intermediates/transforms/dexMerger/debug/0
+path.0=classes.dex
+renamed.0=classes.dex
